@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+.contsiner {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.about_us {
+    display: flex;
+    height: 630px;
+    align-items: center;
+}
+
+.aboutus {
+    width: 768px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.aboutus h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 73px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #5B5B5B;
+
+}
+
+.aboutus p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: left;
+    color: #5B5B5B;
+    width: 450px;
+}
+
+.percent {
+    width: 768px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 160px;
+}
+
+.perc {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    margin-right: 160px;
+}
+
+.inscrip {
+    margin-left: 95px;
+}
+
+.inscrip h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 61px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 125px;
+    height: 61px;
+}
+
+.inscrip p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 320px;
+    height: 22px;
+}

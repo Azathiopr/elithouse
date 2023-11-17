@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+
+
+header {
+    background: url("../../assets/images/Fasad_v3_c08\ 1.png")center / cover no-repeat;
+    height: 900px;
+    width: 100%;
+    /* background-attachment: fixed; */
+    padding-top: 45px;
+    padding-bottom: 52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    color: #5B5B5B;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+    color: black;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+.header_top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    width: 720px;
+
+}
+
+.menu_item {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.menu_item:hover {
+    color: #EC6A06;
+}
+
+.ikon {
+    display: flex;
+    justify-content: space-around;
+    width: 420px;
+}
+
+.program {
+    width: 21px;
+    height: 21px;
+}
+
+.whatsapp {
+    width: 24px;
+    height: 24px;
+}
+
+.youtube {
+    width: 30px;
+    height: 21px;
+}
+
+.num {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.5px;
+    text-align: left;
+
+}
+
+.moon {
+    width: 32px;
+    height: 29px;
+}
+
+.inbtn {
+    display: flex;
+    justify-content: end;
+}
+
+.btn {
+    width: 238px;
+    height: 55px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 95px;
+}
+
+.block {
+    width: 22px;
+    height: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.blockup {
+    width: 22px;
+    height: 3px;
+    background-color: #ED6B06;
+}
+
+.blockaver {
+    width: 22px;
+    height: 3px;
+    background-color: #ED6B06;
+}
+
+.blockdown {
+    width: 22px;
+    height: 3px;
+    background-color: #ED6B06;
+}
+
+.applic {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 10px;
+}

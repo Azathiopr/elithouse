@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+.contsiner {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.object_up {
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.object_up h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 73px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    width: 310px;
+    height: 73px;
+    color: #5B5B5B;
+}
+
+.ob_menu {
+    display: flex;
+    width: 800px;
+    margin-right: 250px;
+    align-items: center;
+}
+
+.ob_menu li {
+    flex: 0 0 33%;
+    height: 42px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.ob_menu li:hover {
+    background-color: #ED6B06;
+
+}
+
+.ob_menu li:hover a {
+    color: #fff;
+}
+
+.ob_menu li a {
+    color: #5B5B5B;
+
+}
+
+.object_gal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.ob_card {
+    width: 490px;
+    background: #F2F2F2;
+    margin-bottom: 50px;
+}
+
+.cardclass {
+    width: 490px;
+}
+
+.span {
+    display: block;
+    background: #A6A6A4;
+    width: 450px;
+    height: 1px;
+    margin: 0 auto;
+}
+
+.card_sr {
+    width: 490px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card_sr h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.card_sr img {
+    margin-right: 60px;
+}
+
+.card_down {
+    width: 490px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.card_down img {
+    margin-left: 30px;
+
+}
+
+.card_down p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-left: 30px;
+}
